@@ -1,5 +1,5 @@
 import logging.handlers
-
+import urllib3
 # Create logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
